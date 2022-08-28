@@ -2,6 +2,7 @@ package com.api.cursospring.controllers;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.List;
 
 import javax.validation.Valid;
 import org.springframework.beans.BeanUtils;
@@ -17,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.api.cursospring.models.ParkingSpotModel;
 import com.api.cursospring.services.ParkingSpotService;
 
-import antlr.collections.List;
 import dtos.ParkingSpotDTO;
 
 @RestController
